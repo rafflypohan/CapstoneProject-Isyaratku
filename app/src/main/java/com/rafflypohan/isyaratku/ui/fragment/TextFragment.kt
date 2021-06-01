@@ -3,19 +3,17 @@ package com.rafflypohan.isyaratku.ui.fragment
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import com.rafflypohan.isyaratku.R
+import androidx.fragment.app.Fragment
 import com.rafflypohan.isyaratku.databinding.FragmentTextBinding
 
 
 class TextFragment : Fragment() {
     private lateinit var textBinding: FragmentTextBinding
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         textBinding = FragmentTextBinding.inflate(inflater, container, false)
         return textBinding.root
     }
