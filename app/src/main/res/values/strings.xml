@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IsyaratKu</string>
+    <string name="title_profile">Profile</string>
+    <string name="placeholder_translate_box">Masukkan kata atau kalimat</string>
+    <string name="text_enter">Enter</string>
+    <string name="text_clear">Clear</string>
+    <string name="text_camera">Camera</string>
+    <string name="text_voice">Voice</string>
+    <string name="text_text">Text</string>
+</resources>
