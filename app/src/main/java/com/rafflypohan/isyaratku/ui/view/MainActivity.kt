@@ -2,6 +2,8 @@ package com.rafflypohan.isyaratku.ui.view
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
@@ -20,9 +22,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(mainBinding.root)
         setSupportActionBar(mainBinding.toolbar)
 
-        mainBinding.ivProfile.setOnClickListener {
-            startActivity(Intent(this, ProfileActivity::class.java))
-        }
         bottomNavigationConfig()
     }
 
